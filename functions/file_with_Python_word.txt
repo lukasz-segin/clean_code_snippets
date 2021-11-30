@@ -1,0 +1,8 @@
+simple_email@gmail.com
+simple_email1@gmail.com
+simple_email2@gmail.com
+simple_email3@gmail.com
+simple_email4@gmail.com
+simple_email5@gmail.com
+simple_email6@gmail.com
+Python

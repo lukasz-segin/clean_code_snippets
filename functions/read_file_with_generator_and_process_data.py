@@ -4,8 +4,6 @@ import re
 def read_file(file_name):
     """
     Reading file line after line.
-    :param file_name:
-    :return line:
     """
 
     with open(file_name) as fread:
@@ -16,8 +14,6 @@ def read_file(file_name):
 def get_unique_emails(file_name):
     """
     Read unique email addresses.
-    :param file_name:
-    :return:
     """
 
     emails = set()
