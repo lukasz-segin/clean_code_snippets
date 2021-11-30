@@ -8,7 +8,7 @@ def main() -> None:
     """
 
     print("Test")
-    print(get_unique_emails("functions/emails.txt"))
+    print(get_unique_emails("functions/files/emails.txt"))
 
 
 if __name__ == '__main__':

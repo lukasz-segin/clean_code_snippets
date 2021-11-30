@@ -18,10 +18,11 @@ def read_lines_for_python(file_name, file_type):
     return False
 
 
-print(read_lines_for_python("file_with_Python_word.txt", "txt"))
-print(read_lines_for_python("emails.txt", "txt"))
+print(read_lines_for_python("files/file_with_Python_word.txt", "txt"))
+print(read_lines_for_python("files/emails.txt", "txt"))
+# print(read_lines_for_python("files/emails1.txt", "txt")) # OSError: No file
 
-if not read_lines_for_python("emails.txt", "txt"):
+if not read_lines_for_python("files/emails.txt", "txt"):
     print("There is no Python word in the file")
 
-read_lines_for_python("file_without_Python_word.json", "json")
+# read_lines_for_python("files/file_without_Python_word.json", "json") # ValueError: Incorrect file format
