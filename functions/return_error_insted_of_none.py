@@ -15,13 +15,13 @@ def read_lines_for_python(file_name, file_type):
     for line in read_file(file_name):
         if line.find("Python") != -1:
             return "Word Python found"
-    return
+    return False
 
 
 print(read_lines_for_python("file_with_Python_word.txt", "txt"))
+print(read_lines_for_python("emails.txt", "txt"))
 
 if not read_lines_for_python("emails.txt", "txt"):
     print("There is no Python word in the file")
 
-if not read_lines_for_python("file_without_Python_word.json", "json"):
-    print("There is no Python word in the file")
+read_lines_for_python("file_without_Python_word.json", "json")
